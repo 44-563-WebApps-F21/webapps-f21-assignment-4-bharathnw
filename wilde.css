@@ -4,6 +4,7 @@
     font-family: 'arial', Courier, monospace;
     font-size: 1rem;
     color: rgb(20, 15, 15);
+    border-radius: 4px;
 }
 
 .stage-direction {
@@ -60,4 +61,9 @@
 .table>thead {
     background-color: rgb(22, 67, 109);
     color: #fff;
+}
+
+.name:hover {
+    box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
+    padding: 3px;
 }
