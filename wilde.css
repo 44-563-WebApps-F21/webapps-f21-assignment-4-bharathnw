@@ -40,8 +40,8 @@
     width: 100%;
 }
 
-.table>tr:nth-child(even) {
-    background: rgb(221, 219, 219);
+.table>tbody>tr:nth-child(even) {
+    background: rgb(235, 233, 233);
 }
 
 .table>tr {
@@ -66,4 +66,27 @@
 .name:hover {
     box-shadow: 0 3px 5px -1px #0003, 0 6px 10px #00000024, 0 1px 18px #0000001f;
     padding: 3px;
+}
+
+.menu {
+    list-style-type: none;
+    border: 1px solid #e7e7e7;
+    background-color: #d1cfcf;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu>li {
+    display: list-item;
+}
+
+.menu>li>a {
+    display: block;
+    color: rgb(20, 19, 19);
+    font-weight: 600;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
