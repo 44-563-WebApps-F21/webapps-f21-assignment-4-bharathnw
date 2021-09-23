@@ -1,0 +1,32 @@
+.speech,
+.stage-direction,
+.name {
+    font-family: 'arial', Courier, monospace;
+    font-size: 1rem;
+    color: rgb(20, 15, 15);
+}
+
+.stage-direction {
+    background-color: rgb(215, 231, 124);
+}
+
+.stage-direction:hover {
+    background-color: rgb(98, 102, 36);
+    color: #fff;
+}
+
+.duke {
+    color: rgb(179, 121, 41);
+}
+
+.guido {
+    color: rgb(46, 161, 57);
+}
+
+.bardi {
+    color: rgb(20, 60, 94);
+}
+
+.duchess {
+    color: rgb(66, 36, 37);
+}
